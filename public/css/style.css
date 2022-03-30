@@ -1,0 +1,90 @@
+
+body{
+    min-height: 100vh;
+ 
+    position: relative;
+}
+header{
+    background-color: aliceblue;
+    border: 1 px solid #ccc;
+}
+.row{
+    margin: 0;
+}
+.container-fluid{
+padding: 0;
+}
+.btn-primary{
+    background-color:red;
+    border: 2px solid #c28008;
+}
+.btn-primary:hover{
+    background-color: #c28008;
+    border: 2px solid #f2a340;
+}
+
+#search-container{
+    background-image:url('https://th.bing.com/th/id/OIP.1C3GkY4TgFM7AjsYLrlLGgHaFI?pid=ImgDet&rs=1');
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    padding: 50px;
+    text-align: center;
+    color: white;
+    
+}
+#search-container H1{
+    color: rgb(237, 253, 13);
+    margin-bottom:30px ;
+    font-weight: 900;
+    
+}
+
+#search-container form{
+   width: 50%;
+   margin: auto;
+    
+}
+
+#events-container{
+   padding: 50px;
+     
+ }
+ #events-container  h2{
+    margin-bottom: 10px;
+      
+  }
+  #events-container  .subtitele{
+  color: #757575;
+  margin-bottom: 30px;
+  }
+  #cards-container{
+      display: flex;
+  }
+  #events-container .card{
+ flex: 1 1 24%;
+ max-width: 25%;
+border-radius: 10px; 
+padding: 0;
+margin: .5%;
+ }
+ #events-container img{
+   
+     border-top-left-radius: 10px;
+     border-top-right-radius: 10px;
+
+    }
+
+    footer{
+        background-color: rgb(121, 121, 121);
+        padding: 30px;
+        text-align: center;
+        position: absolute;
+        width: 100%;
+     
+        
+    }
+
+  
+
+
